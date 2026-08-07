@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(), tailwindcss(), tsconfigPaths()],
   // GitHub Pages serve de https://<user>.github.io/<repo>/
   // Altere o valor abaixo se o repo tiver um nome diferente.
-  base: "/portifoli_andre/",
+  base: "/portifolio_andre/",
 });
