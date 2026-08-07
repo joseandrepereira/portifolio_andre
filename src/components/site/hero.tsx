@@ -1,7 +1,7 @@
 import { ArrowRight, Download, Github, Linkedin, Mail, MapPin, MessageCircle } from "lucide-react";
 import { ParticleField } from "@/components/particle-field";
-import foto from "@/assets/jose-andre.jpg.asset.json";
-import curriculo from "@/assets/curriculo.pdf.asset.json";
+const foto = { url: "/portifolio_andre/jose-andre.jpg" };
+const curriculo = { url: "/portifolio_andre/curriculo-jose-andre.pdf" };
 import { destaques, mailtoUrl, perfil, whatsappUrl } from "@/lib/portfolio-data";
 
 export function Hero() {
